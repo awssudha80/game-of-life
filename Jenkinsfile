@@ -1,4 +1,4 @@
-node('MASTER')
+node('any')
    stage('git') {
        git 'https://github.com/awssudha80/game-of-life.git'
    }
