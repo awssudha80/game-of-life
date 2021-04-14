@@ -1,5 +1,5 @@
-node ( 'MASTER')
-   stage ( 'git') {
+node('MASTER')
+   stage('git') {
        git 'https://github.com/awssudha80/game-of-life.git'
    }
    stage ('build'){
